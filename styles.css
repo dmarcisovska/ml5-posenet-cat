@@ -46,9 +46,3 @@ a {
     font-size: 12px;
 }
 
-@media screen and (max-width: 640px) {
-    canvas {
-        width: 100% !important;
-        height: auto !important;
-    }
-}
