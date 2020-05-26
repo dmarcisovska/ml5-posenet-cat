@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: url("assets/cats.jpg")  no-repeat fixed 0 0 / cover;
+}
+canvas {
+    display: block;
+}
+
+canvas {
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+canvas {
+    padding: 10px 10px 10px 10px;
+    background: white;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+    -webkit-box-shadow:  0px 2px 15px #333;
+    -moz-box-shadow: 0px 2px 15px #333;
+   -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 32px;
+    margin: 50px auto 50px auto;
+
+}
+
+#button-group {
+   position: absolute;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black !important;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 640px) {
+    canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
+}

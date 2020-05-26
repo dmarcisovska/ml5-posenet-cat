@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8" />
+
+</head>
+<body>
+<script src="sketch.js"></script>
+<a href="https://www.vecteezy.com/free-vector/seamless-pattern"> Wallpaper by Vecteezy</a>
+<div class="container" id="button-group">
+    <button type="button" class="btn btn-info btn-lg mr-3" onclick="meow()">Meow</button>
+    <button type="button" class="btn btn-info btn-lg mr-3" onclick="purr()">Purr</button>
+    <button type="button" class="btn btn-info btn-lg" onclick="hiss()">Hiss</button>
+</div>
+
+<audio src="assets/meow.mp3" id="meow">
+    <p class="text-center">If you are reading this, it is because your browser does not support the audio element. </p>
+</audio>
+
+<audio src="assets/purr.mp3" id="purr">
+    <p class="text-center">If you are reading this, it is because your browser does not support the audio element. </p>
+</audio>
+
+<audio src="assets/hiss.wav" id="hiss">
+    <p class="text-center">If you are reading this, it is because your browser does not support the audio element. </p>
+</audio>
+
+</body>
+</html>
